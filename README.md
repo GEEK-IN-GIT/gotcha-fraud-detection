@@ -42,9 +42,11 @@ src/
   run_xgboost_ablation.py      # runs the full/no_synthetic/no_ip_risk feature-variant ablation
   generate_figures.py          # renders reports/figures/ from saved metrics
   score_transaction.py         # shared decision policy (approve/step-up/block bands)
-  api.py                       # Flask inference API
+  features.py                  # derives model inputs (time, amount, distance, risk tier) from a raw request
+  api.py                       # Flask inference API (app factory, v1 routes, batch scoring)
 tests/
   test_features.py             # unit tests for feature math and decision policy
+  test_api.py                  # API tests: auth, validation, derivation, batch, CORS, rate limiting
 models/                        # trained model artifacts + preprocessors (committed, ~5MB)
 reports/                       # metrics JSON + figures (committed, ~340KB)
 data/                          # raw/processed data (gitignored — see data/README.md)
@@ -65,7 +67,10 @@ pip install -r requirements.txt
 ## Run the API (uses the pre-trained models already in `models/`)
 
 No dataset download needed for this — the committed model artifacts are
-enough to serve predictions.
+enough to serve predictions. The API is a Flask app factory
+(`create_app()` in `src/api.py`); `FRAUD_API_KEY` is only checked when the
+factory runs, so importing the module never fails on a misconfigured
+environment.
 
 ```bash
 cp .env.example .env
@@ -74,34 +79,68 @@ export $(cat .env | xargs)
 python -m src.api
 ```
 
-The API starts on `http://localhost:5001`.
+For production, run it under gunicorn using the factory directly instead:
 
 ```bash
-curl http://localhost:5001/health
+gunicorn --factory "src.api:create_app" --bind 0.0.0.0:5001
+```
 
-curl -X POST http://localhost:5001/score \
+The API starts on `http://localhost:5001`.
+
+### Endpoints
+
+| Method | Path | Auth | Description |
+|---|---|---|---|
+| GET | `/v1/health` (alias `/health`) | none | Liveness check, current decision thresholds |
+| GET | `/v1/model` | none | Model variant, thresholds, and tuned test metrics |
+| GET | `/v1/schema` | none | Every model input: type, required/derivable, allowed categorical values |
+| GET | `/openapi.json` | none | OpenAPI 3.0 spec for the API |
+| POST | `/v1/score` (alias `/score`) | `X-API-Key` | Score one transaction |
+| POST | `/v1/score/batch` | `X-API-Key` | Score up to 100 transactions in one call |
+
+`/v1/score` only strictly requires the raw fields with no formula to derive
+them: `amt`, `zip`, `lat`, `long`, `city_pop`, `merch_lat`, `merch_long`,
+`category`, `state`, `gender`. Everything else is either derived
+server-side (from an optional `timestamp`/`dob`, via `src/features.py`) or
+left for the model's trained imputers to fill — check `/v1/schema` for the
+full breakdown, and the response's `derived_fields` / `imputed_fields` to
+see what happened for a given request.
+
+```bash
+curl http://localhost:5001/v1/health
+
+curl -X POST http://localhost:5001/v1/score \
   -H "Content-Type: application/json" \
   -H "X-API-Key: $FRAUD_API_KEY" \
   -d '{
     "amt": 125.50, "zip": 90210, "lat": 34.0522, "long": -118.2437,
     "city_pop": 500000, "merch_lat": 34.05, "merch_long": -118.25,
-    "txn_hour": 14, "txn_dayofweek": 2, "is_weekend": 0, "is_night_transaction": 0,
-    "customer_age": 35, "merchant_customer_distance_km": 2.3, "amount_log": 4.83,
-    "amount_vs_customer_mean": 1.1, "amount_zscore_customer": 0.4,
-    "time_since_last_txn_sec": 3600, "distance_from_last_txn_km": 1.2,
-    "travel_speed_kmh": 5.0, "transactions_last_10min": 1,
-    "synthetic_device_changed": 0, "synthetic_failed_logins_24h": 0,
-    "synthetic_ip_risk_score": 0.1, "synthetic_account_age_days": 400,
-    "synthetic_email_age_days": 500, "synthetic_billing_shipping_mismatch": 0,
-    "category": "grocery_pos", "gender": "F", "state": "CA", "job": "Engineer"
+    "category": "grocery_pos", "state": "CA", "gender": "F",
+    "timestamp": "2026-06-15T14:30:00"
   }'
 ```
 
-Response: `fraud_probability`, `decision` (`approve` / `step_up_verification`
-/ `block`), `risk_band`, and a human-readable `action`.
+Response includes `fraud_probability`, `decision`
+(`approve` / `step_up_verification` / `block`), `risk_band`, `action`,
+`derived_fields`, `imputed_fields`, `request_id`, `latency_ms`, and
+`top_factors` (the top 5 per-feature contributions to the score, from
+XGBoost's `pred_contribs`).
+
+Batch scoring takes the same per-transaction shape under a `transactions`
+array and returns per-item results (a bad item doesn't fail the whole
+batch):
+
+```bash
+curl -X POST http://localhost:5001/v1/score/batch \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: $FRAUD_API_KEY" \
+  -d '{"transactions": [ { ...same fields as above... } ]}'
+```
 
 `MODEL_VARIANT` env var (default `full`) selects which trained variant to
-serve: `full`, `full_random`, `no_synthetic`, or `no_ip_risk`.
+serve: `full`, `full_random`, `no_synthetic`, or `no_ip_risk`. See
+`.env.example` for the other runtime settings (`ALLOWED_ORIGINS`,
+`RATE_LIMIT_PER_MIN`, `MAX_CONTENT_LENGTH`).
 
 ## Run the tests
 
