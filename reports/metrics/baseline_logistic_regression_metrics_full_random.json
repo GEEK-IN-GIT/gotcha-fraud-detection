@@ -1,0 +1,40 @@
+{
+  "model_name": "baseline_logistic_regression",
+  "variant": "full_random",
+  "target_column": "is_fraud",
+  "feature_count": 39,
+  "validation_metrics": {
+    "precision": 0.06514994829369183,
+    "recall": 0.7,
+    "f1": 0.11920529801324503,
+    "roc_auc": 0.9263437134404876,
+    "pr_auc": 0.20532867772228727,
+    "confusion_matrix": [
+      [
+        14007,
+        904
+      ],
+      [
+        27,
+        63
+      ]
+    ]
+  },
+  "test_metrics": {
+    "precision": 0.061855670103092786,
+    "recall": 0.6666666666666666,
+    "f1": 0.11320754716981132,
+    "roc_auc": 0.9360406885758997,
+    "pr_auc": 0.15116227316995903,
+    "confusion_matrix": [
+      [
+        14000,
+        910
+      ],
+      [
+        30,
+        60
+      ]
+    ]
+  }
+}
