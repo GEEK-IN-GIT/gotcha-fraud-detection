@@ -171,6 +171,37 @@ Each script writes into `models/` and `reports/metrics/`, matching the
 files already committed in this repo (so you can diff your reproduction
 against the checked-in results).
 
+## Deploy
+
+The API ships as a Docker image (`Dockerfile`) and deploys to
+[Render](https://render.com) via the `render.yaml` blueprint.
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/GEEK-IN-GIT/gotcha-fraud-detection)
+
+Clicking that button reads `render.yaml` and provisions a single free-tier
+web service that builds `Dockerfile` and health-checks `/v1/health`.
+
+- **API key**: `FRAUD_API_KEY` is set to `generateValue: true` in
+  `render.yaml`, so Render generates a random value for you at deploy
+  time — it's not something you set yourself. Find it in the Render
+  dashboard under your service → **Environment** tab, and use it as the
+  `X-API-Key` header when calling the API.
+- **Cold starts**: Render's free tier spins the service down when idle.
+  The first request after a period of inactivity can take ~30s while it
+  wakes back up and gunicorn re-imports pandas/scikit-learn/xgboost and
+  reloads the model artifacts; subsequent requests are fast.
+- **CORS**: `ALLOWED_ORIGINS` in `render.yaml` is preset to
+  `https://geek-in-git.github.io` — update it if you're calling the API
+  from a different frontend origin.
+
+To build and run the same image locally:
+
+```bash
+docker build -t gotcha-fraud-api .
+docker run -p 8080:8080 -e PORT=8080 -e FRAUD_API_KEY=changeme gotcha-fraud-api
+curl http://localhost:8080/v1/health
+```
+
 ## License
 
 MIT — see `LICENSE`.

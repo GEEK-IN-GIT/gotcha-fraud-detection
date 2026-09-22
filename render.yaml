@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: gotcha-fraud-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /v1/health
+    envVars:
+      - key: FRAUD_API_KEY
+        generateValue: true
+      - key: MODEL_VARIANT
+        value: full
+      - key: ALLOWED_ORIGINS
+        value: https://geek-in-git.github.io
