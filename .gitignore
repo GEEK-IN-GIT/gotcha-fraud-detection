@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+.pytest_cache/
+
+# Raw and derived datasets are large (1.9GB total) and easy to regenerate
+# from the Kaggle source via the src/ pipeline scripts - see data/README.md.
+data/raw/
+data/processed/
+data/samples/
+
+# models/ and reports/ are intentionally NOT ignored: they're small
+# (~5.3MB and ~340KB) and let people run the API / read results without
+# retraining first.
