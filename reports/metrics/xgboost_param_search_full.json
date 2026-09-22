@@ -1,0 +1,226 @@
+[
+  {
+    "params": {
+      "max_depth": 4,
+      "learning_rate": 0.03,
+      "min_child_weight": 1,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "validation_metrics": {
+      "precision": 0.275,
+      "recall": 0.9777777777777777,
+      "f1": 0.4292682926829268,
+      "roc_auc": 0.9960200895684767,
+      "pr_auc": 0.7785936309063617,
+      "confusion_matrix": [
+        [
+          14679,
+          232
+        ],
+        [
+          2,
+          88
+        ]
+      ],
+      "false_positives": 232,
+      "false_negatives": 2
+    }
+  },
+  {
+    "params": {
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "min_child_weight": 3,
+      "subsample": 0.8,
+      "colsample_bytree": 1.0
+    },
+    "validation_metrics": {
+      "precision": 0.36065573770491804,
+      "recall": 0.9777777777777777,
+      "f1": 0.5269461077844312,
+      "roc_auc": 0.9963546673224092,
+      "pr_auc": 0.8456516078184717,
+      "confusion_matrix": [
+        [
+          14755,
+          156
+        ],
+        [
+          2,
+          88
+        ]
+      ],
+      "false_positives": 156,
+      "false_negatives": 2
+    }
+  },
+  {
+    "params": {
+      "max_depth": 5,
+      "learning_rate": 0.03,
+      "min_child_weight": 3,
+      "subsample": 1.0,
+      "colsample_bytree": 0.8
+    },
+    "validation_metrics": {
+      "precision": 0.3548387096774194,
+      "recall": 0.9777777777777777,
+      "f1": 0.5207100591715976,
+      "roc_auc": 0.9970111550756713,
+      "pr_auc": 0.8768539416479447,
+      "confusion_matrix": [
+        [
+          14751,
+          160
+        ],
+        [
+          2,
+          88
+        ]
+      ],
+      "false_positives": 160,
+      "false_negatives": 2
+    }
+  },
+  {
+    "params": {
+      "max_depth": 5,
+      "learning_rate": 0.05,
+      "min_child_weight": 1,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "validation_metrics": {
+      "precision": 0.49700598802395207,
+      "recall": 0.9222222222222223,
+      "f1": 0.6459143968871596,
+      "roc_auc": 0.9960603283183929,
+      "pr_auc": 0.8786624882812744,
+      "confusion_matrix": [
+        [
+          14827,
+          84
+        ],
+        [
+          7,
+          83
+        ]
+      ],
+      "false_positives": 84,
+      "false_negatives": 7
+    }
+  },
+  {
+    "params": {
+      "max_depth": 5,
+      "learning_rate": 0.1,
+      "min_child_weight": 5,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0
+    },
+    "validation_metrics": {
+      "precision": 0.7105263157894737,
+      "recall": 0.9,
+      "f1": 0.7941176470588235,
+      "roc_auc": 0.9949001110291433,
+      "pr_auc": 0.9219486596996382,
+      "confusion_matrix": [
+        [
+          14878,
+          33
+        ],
+        [
+          9,
+          81
+        ]
+      ],
+      "false_positives": 33,
+      "false_negatives": 9
+    }
+  },
+  {
+    "params": {
+      "max_depth": 6,
+      "learning_rate": 0.03,
+      "min_child_weight": 5,
+      "subsample": 0.8,
+      "colsample_bytree": 1.0
+    },
+    "validation_metrics": {
+      "precision": 0.5,
+      "recall": 0.9333333333333333,
+      "f1": 0.6511627906976745,
+      "roc_auc": 0.9960163637582993,
+      "pr_auc": 0.8861861798257431,
+      "confusion_matrix": [
+        [
+          14827,
+          84
+        ],
+        [
+          6,
+          84
+        ]
+      ],
+      "false_positives": 84,
+      "false_negatives": 6
+    }
+  },
+  {
+    "params": {
+      "max_depth": 6,
+      "learning_rate": 0.05,
+      "min_child_weight": 3,
+      "subsample": 1.0,
+      "colsample_bytree": 0.8
+    },
+    "validation_metrics": {
+      "precision": 0.7068965517241379,
+      "recall": 0.9111111111111111,
+      "f1": 0.7961165048543689,
+      "roc_auc": 0.9968226290806936,
+      "pr_auc": 0.9219432186851784,
+      "confusion_matrix": [
+        [
+          14877,
+          34
+        ],
+        [
+          8,
+          82
+        ]
+      ],
+      "false_positives": 34,
+      "false_negatives": 8
+    }
+  },
+  {
+    "params": {
+      "max_depth": 6,
+      "learning_rate": 0.1,
+      "min_child_weight": 1,
+      "subsample": 0.8,
+      "colsample_bytree": 1.0
+    },
+    "validation_metrics": {
+      "precision": 0.8823529411764706,
+      "recall": 0.8333333333333334,
+      "f1": 0.8571428571428571,
+      "roc_auc": 0.9953427372782211,
+      "pr_auc": 0.9115208570630762,
+      "confusion_matrix": [
+        [
+          14901,
+          10
+        ],
+        [
+          15,
+          75
+        ]
+      ],
+      "false_positives": 10,
+      "false_negatives": 15
+    }
+  }
+]

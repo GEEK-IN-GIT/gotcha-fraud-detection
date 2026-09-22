@@ -1,0 +1,83 @@
+{
+  "model_name": "xgboost_fraud_model",
+  "target_column": "is_fraud",
+  "raw_feature_count": 30,
+  "transformed_feature_count": 572,
+  "scale_pos_weight": 166.46172248803828,
+  "validation_metrics": {
+    "precision": 0.9431818181818182,
+    "recall": 0.9222222222222223,
+    "f1": 0.9325842696629213,
+    "roc_auc": 0.9998040223846675,
+    "pr_auc": 0.9739056487789755,
+    "confusion_matrix": [
+      [
+        14906,
+        5
+      ],
+      [
+        7,
+        83
+      ]
+    ]
+  },
+  "test_metrics": {
+    "precision": 0.9222222222222223,
+    "recall": 0.9222222222222223,
+    "f1": 0.9222222222222223,
+    "roc_auc": 0.9990655041359268,
+    "pr_auc": 0.9688145308860256,
+    "confusion_matrix": [
+      [
+        14903,
+        7
+      ],
+      [
+        7,
+        83
+      ]
+    ]
+  },
+  "top_10_features": [
+    {
+      "feature": "numeric__synthetic_ip_risk_score",
+      "importance": 0.14418791234493256
+    },
+    {
+      "feature": "numeric__amt",
+      "importance": 0.03870893642306328
+    },
+    {
+      "feature": "categorical__job_Radiographer, therapeutic",
+      "importance": 0.037250954657793045
+    },
+    {
+      "feature": "numeric__synthetic_failed_logins_24h",
+      "importance": 0.030307920649647713
+    },
+    {
+      "feature": "categorical__job_Furniture designer",
+      "importance": 0.029125362634658813
+    },
+    {
+      "feature": "categorical__job_Designer, interior/spatial",
+      "importance": 0.02637232467532158
+    },
+    {
+      "feature": "categorical__job_Engineer, manufacturing",
+      "importance": 0.02429349347949028
+    },
+    {
+      "feature": "categorical__job_Producer, radio",
+      "importance": 0.023156745359301567
+    },
+    {
+      "feature": "categorical__job_Conservator, museum/gallery",
+      "importance": 0.023025993257761
+    },
+    {
+      "feature": "categorical__job_Engineer, agricultural",
+      "importance": 0.022317368537187576
+    }
+  ]
+}

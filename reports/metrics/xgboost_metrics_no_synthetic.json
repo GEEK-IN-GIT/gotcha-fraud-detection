@@ -1,0 +1,84 @@
+{
+  "model_name": "xgboost_fraud_model",
+  "variant": "no_synthetic",
+  "target_column": "is_fraud",
+  "raw_feature_count": 37,
+  "transformed_feature_count": 103,
+  "scale_pos_weight": 175.72304973491543,
+  "validation_metrics": {
+    "precision": 0.6767527675276753,
+    "recall": 0.9385875127942682,
+    "f1": 0.7864493996569468,
+    "roc_auc": 0.998742000704129,
+    "pr_auc": 0.9367566573410525,
+    "confusion_matrix": [
+      [
+        148585,
+        438
+      ],
+      [
+        60,
+        917
+      ]
+    ]
+  },
+  "test_metrics": {
+    "precision": 0.646875,
+    "recall": 0.9441277080957811,
+    "f1": 0.7677329624478443,
+    "roc_auc": 0.9988341031923544,
+    "pr_auc": 0.9359946357590679,
+    "confusion_matrix": [
+      [
+        148671,
+        452
+      ],
+      [
+        49,
+        828
+      ]
+    ]
+  },
+  "top_10_features": [
+    {
+      "feature": "numeric__is_high_amount",
+      "importance": 0.6174386739730835
+    },
+    {
+      "feature": "numeric__amount_log",
+      "importance": 0.05242542922496796
+    },
+    {
+      "feature": "numeric__amt",
+      "importance": 0.0362512469291687
+    },
+    {
+      "feature": "numeric__is_night_transaction",
+      "importance": 0.03150491043925285
+    },
+    {
+      "feature": "categorical__category_gas_transport",
+      "importance": 0.021863415837287903
+    },
+    {
+      "feature": "categorical__category_grocery_net",
+      "importance": 0.01490739081054926
+    },
+    {
+      "feature": "categorical__category_food_dining",
+      "importance": 0.013572826981544495
+    },
+    {
+      "feature": "numeric__merchant_category_risk_score",
+      "importance": 0.013208034448325634
+    },
+    {
+      "feature": "categorical__merchant_category_risk_tier_low",
+      "importance": 0.01319166924804449
+    },
+    {
+      "feature": "categorical__category_shopping_pos",
+      "importance": 0.012776876799762249
+    }
+  ]
+}

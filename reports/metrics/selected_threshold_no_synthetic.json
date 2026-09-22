@@ -1,0 +1,24 @@
+{
+  "variant": "no_synthetic",
+  "selection_rule": "highest_precision_with_recall_at_least_0.85_else_best_f1",
+  "selected_threshold": 0.6,
+  "validation_metrics": {
+    "threshold": 0.6,
+    "precision": 0.7647058823529411,
+    "recall": 0.8666666666666667,
+    "f1": 0.8125,
+    "confusion_matrix": [
+      [
+        14887,
+        24
+      ],
+      [
+        12,
+        78
+      ]
+    ],
+    "false_positives": 24,
+    "false_negatives": 12,
+    "review_rate": 0.006799546696886874
+  }
+}

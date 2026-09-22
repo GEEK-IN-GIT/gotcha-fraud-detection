@@ -1,0 +1,25 @@
+{
+  "variant": "full",
+  "selection_rule": "minimum_expected_cost_with_recall_floor_0.80_and_max_review_rate_0.0075",
+  "selected_threshold": 0.7,
+  "validation_metrics": {
+    "threshold": 0.7,
+    "precision": 0.7944839857651246,
+    "recall": 0.9140225179119754,
+    "f1": 0.8500713945740124,
+    "confusion_matrix": [
+      [
+        148792,
+        231
+      ],
+      [
+        84,
+        893
+      ]
+    ],
+    "false_positives": 231,
+    "false_negatives": 84,
+    "review_rate": 0.007493333333333334,
+    "expected_cost": 26407.5
+  }
+}

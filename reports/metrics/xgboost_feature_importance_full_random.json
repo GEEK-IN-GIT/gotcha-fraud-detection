@@ -1,0 +1,2334 @@
+[
+  {
+    "feature": "numeric__amount_log",
+    "importance": 0.05631620064377785
+  },
+  {
+    "feature": "numeric__amt",
+    "importance": 0.047813862562179565
+  },
+  {
+    "feature": "categorical__category_gas_transport",
+    "importance": 0.03577125817537308
+  },
+  {
+    "feature": "categorical__category_grocery_net",
+    "importance": 0.03065427578985691
+  },
+  {
+    "feature": "categorical__job_Town planner",
+    "importance": 0.021553169935941696
+  },
+  {
+    "feature": "categorical__job_Medical technical officer",
+    "importance": 0.019246183335781097
+  },
+  {
+    "feature": "categorical__job_Forest/woodland manager",
+    "importance": 0.019218510016798973
+  },
+  {
+    "feature": "numeric__txn_hour",
+    "importance": 0.017574260011315346
+  },
+  {
+    "feature": "categorical__job_Museum/gallery conservator",
+    "importance": 0.017564136534929276
+  },
+  {
+    "feature": "categorical__state_PA",
+    "importance": 0.01693081110715866
+  },
+  {
+    "feature": "categorical__job_Barrister's clerk",
+    "importance": 0.015995142981410027
+  },
+  {
+    "feature": "categorical__job_Therapist, occupational",
+    "importance": 0.014705986715853214
+  },
+  {
+    "feature": "categorical__job_General practice doctor",
+    "importance": 0.0146653912961483
+  },
+  {
+    "feature": "categorical__job_Civil Service fast streamer",
+    "importance": 0.014440580271184444
+  },
+  {
+    "feature": "categorical__job_Education officer, museum",
+    "importance": 0.014322423376142979
+  },
+  {
+    "feature": "categorical__job_Geoscientist",
+    "importance": 0.014197480864822865
+  },
+  {
+    "feature": "categorical__job_Producer, radio",
+    "importance": 0.013863231055438519
+  },
+  {
+    "feature": "categorical__job_Financial trader",
+    "importance": 0.013366051949560642
+  },
+  {
+    "feature": "categorical__job_Psychotherapist",
+    "importance": 0.013251420110464096
+  },
+  {
+    "feature": "categorical__job_Special educational needs teacher",
+    "importance": 0.013208185322582722
+  },
+  {
+    "feature": "categorical__job_Insurance underwriter",
+    "importance": 0.01312045007944107
+  },
+  {
+    "feature": "categorical__category_home",
+    "importance": 0.012880753725767136
+  },
+  {
+    "feature": "categorical__merchant_category_risk_tier_high",
+    "importance": 0.012564454227685928
+  },
+  {
+    "feature": "categorical__state_NH",
+    "importance": 0.012264193966984749
+  },
+  {
+    "feature": "categorical__category_misc_pos",
+    "importance": 0.012218779884278774
+  },
+  {
+    "feature": "categorical__job_Land/geomatics surveyor",
+    "importance": 0.011779838241636753
+  },
+  {
+    "feature": "categorical__job_Archaeologist",
+    "importance": 0.011319712735712528
+  },
+  {
+    "feature": "categorical__job_Airline pilot",
+    "importance": 0.01078489888459444
+  },
+  {
+    "feature": "categorical__state_WA",
+    "importance": 0.010639565996825695
+  },
+  {
+    "feature": "categorical__job_Charity fundraiser",
+    "importance": 0.009682499803602695
+  },
+  {
+    "feature": "categorical__category_food_dining",
+    "importance": 0.009625928476452827
+  },
+  {
+    "feature": "categorical__category_entertainment",
+    "importance": 0.009155313484370708
+  },
+  {
+    "feature": "categorical__job_Theatre director",
+    "importance": 0.0089872432872653
+  },
+  {
+    "feature": "categorical__job_Environmental consultant",
+    "importance": 0.00886496715247631
+  },
+  {
+    "feature": "numeric__merchant_category_risk_score",
+    "importance": 0.008709714747965336
+  },
+  {
+    "feature": "categorical__job_Research officer, trade union",
+    "importance": 0.00836106389760971
+  },
+  {
+    "feature": "categorical__job_Surveyor, land/geomatics",
+    "importance": 0.008142033591866493
+  },
+  {
+    "feature": "categorical__job_Special effects artist",
+    "importance": 0.008107437752187252
+  },
+  {
+    "feature": "categorical__category_shopping_net",
+    "importance": 0.008013931103050709
+  },
+  {
+    "feature": "categorical__category_travel",
+    "importance": 0.007842202670872211
+  },
+  {
+    "feature": "categorical__state_WY",
+    "importance": 0.0077888984233140945
+  },
+  {
+    "feature": "categorical__category_shopping_pos",
+    "importance": 0.007596186362206936
+  },
+  {
+    "feature": "numeric__amount_zscore_customer",
+    "importance": 0.007298849523067474
+  },
+  {
+    "feature": "categorical__merchant_category_risk_tier_low",
+    "importance": 0.007093225605785847
+  },
+  {
+    "feature": "categorical__job_Maintenance engineer",
+    "importance": 0.007023584097623825
+  },
+  {
+    "feature": "numeric__amount_vs_customer_mean",
+    "importance": 0.006945095025002956
+  },
+  {
+    "feature": "categorical__job_Conservation officer, historic buildings",
+    "importance": 0.006791150197386742
+  },
+  {
+    "feature": "categorical__state_TN",
+    "importance": 0.006476726848632097
+  },
+  {
+    "feature": "categorical__state_IL",
+    "importance": 0.006347836460918188
+  },
+  {
+    "feature": "categorical__job_Mining engineer",
+    "importance": 0.0063093602657318115
+  },
+  {
+    "feature": "categorical__state_NM",
+    "importance": 0.0062139262445271015
+  },
+  {
+    "feature": "categorical__state_ND",
+    "importance": 0.0060487412847578526
+  },
+  {
+    "feature": "categorical__job_Secondary school teacher",
+    "importance": 0.005753748584538698
+  },
+  {
+    "feature": "categorical__job_Musician",
+    "importance": 0.005691426806151867
+  },
+  {
+    "feature": "categorical__job_Animal nutritionist",
+    "importance": 0.005520649254322052
+  },
+  {
+    "feature": "categorical__job_Engineer, petroleum",
+    "importance": 0.0052667283453047276
+  },
+  {
+    "feature": "numeric__transactions_last_6h",
+    "importance": 0.00520868506282568
+  },
+  {
+    "feature": "categorical__job_Equality and diversity officer",
+    "importance": 0.004975687246769667
+  },
+  {
+    "feature": "categorical__category_personal_care",
+    "importance": 0.004962831269949675
+  },
+  {
+    "feature": "categorical__job_Drilling engineer",
+    "importance": 0.004932701122015715
+  },
+  {
+    "feature": "numeric__synthetic_billing_shipping_mismatch",
+    "importance": 0.00468308525159955
+  },
+  {
+    "feature": "categorical__merchant_category_risk_tier_medium",
+    "importance": 0.0045293779112398624
+  },
+  {
+    "feature": "categorical__job_Social researcher",
+    "importance": 0.004292493686079979
+  },
+  {
+    "feature": "categorical__state_NY",
+    "importance": 0.004184687044471502
+  },
+  {
+    "feature": "numeric__customer_age",
+    "importance": 0.004152038600295782
+  },
+  {
+    "feature": "categorical__job_Editor, film/video",
+    "importance": 0.004060221370309591
+  },
+  {
+    "feature": "numeric__transactions_last_1h",
+    "importance": 0.0038457480259239674
+  },
+  {
+    "feature": "categorical__job_Engineering geologist",
+    "importance": 0.0038064708933234215
+  },
+  {
+    "feature": "numeric__zip",
+    "importance": 0.0037683178670704365
+  },
+  {
+    "feature": "categorical__job_Trading standards officer",
+    "importance": 0.003744289046153426
+  },
+  {
+    "feature": "numeric__is_night_transaction",
+    "importance": 0.003675951389595866
+  },
+  {
+    "feature": "categorical__state_WI",
+    "importance": 0.003670311998575926
+  },
+  {
+    "feature": "numeric__transactions_last_10min",
+    "importance": 0.0036319629289209843
+  },
+  {
+    "feature": "numeric__city_pop",
+    "importance": 0.0036280369386076927
+  },
+  {
+    "feature": "categorical__job_Sports development officer",
+    "importance": 0.0035426185932010412
+  },
+  {
+    "feature": "categorical__category_grocery_pos",
+    "importance": 0.0034958655014634132
+  },
+  {
+    "feature": "categorical__job_Psychologist, counselling",
+    "importance": 0.0034851774107664824
+  },
+  {
+    "feature": "categorical__job_Scientist, biomedical",
+    "importance": 0.003465188667178154
+  },
+  {
+    "feature": "numeric__distinct_categories_last_24h",
+    "importance": 0.0034149186685681343
+  },
+  {
+    "feature": "categorical__job_Aeronautical engineer",
+    "importance": 0.003359897993505001
+  },
+  {
+    "feature": "numeric__txn_dayofweek",
+    "importance": 0.00334278610534966
+  },
+  {
+    "feature": "categorical__job_Mechanical engineer",
+    "importance": 0.0033080324064940214
+  },
+  {
+    "feature": "numeric__synthetic_failed_logins_24h",
+    "importance": 0.0032378179021179676
+  },
+  {
+    "feature": "categorical__job_Analytical chemist",
+    "importance": 0.0032205209136009216
+  },
+  {
+    "feature": "categorical__category_kids_pets",
+    "importance": 0.00312376138754189
+  },
+  {
+    "feature": "categorical__job_Leisure centre manager",
+    "importance": 0.003120488254353404
+  },
+  {
+    "feature": "numeric__transactions_last_24h",
+    "importance": 0.0031113310251384974
+  },
+  {
+    "feature": "categorical__job_Lawyer",
+    "importance": 0.003093176055699587
+  },
+  {
+    "feature": "categorical__state_AK",
+    "importance": 0.0030479293782263994
+  },
+  {
+    "feature": "numeric__merch_long",
+    "importance": 0.0029248620849102736
+  },
+  {
+    "feature": "categorical__job_Film/video editor",
+    "importance": 0.002834811806678772
+  },
+  {
+    "feature": "categorical__job_Fitness centre manager",
+    "importance": 0.002805122407153249
+  },
+  {
+    "feature": "numeric__amount_spent_last_1h",
+    "importance": 0.002785618882626295
+  },
+  {
+    "feature": "categorical__job_Science writer",
+    "importance": 0.0027463093865662813
+  },
+  {
+    "feature": "numeric__merchant_customer_distance_km",
+    "importance": 0.0027325223200023174
+  },
+  {
+    "feature": "numeric__merch_lat",
+    "importance": 0.0026698256842792034
+  },
+  {
+    "feature": "numeric__synthetic_device_changed",
+    "importance": 0.0026285855565220118
+  },
+  {
+    "feature": "categorical__state_MD",
+    "importance": 0.0025780019350349903
+  },
+  {
+    "feature": "numeric__amount_spent_last_24h",
+    "importance": 0.002569635398685932
+  },
+  {
+    "feature": "numeric__amount_spent_last_6h",
+    "importance": 0.002514036139473319
+  },
+  {
+    "feature": "categorical__job_Aid worker",
+    "importance": 0.0024952576495707035
+  },
+  {
+    "feature": "numeric__lat",
+    "importance": 0.0024677596520632505
+  },
+  {
+    "feature": "categorical__category_health_fitness",
+    "importance": 0.002463709330186248
+  },
+  {
+    "feature": "categorical__job_Education officer, community",
+    "importance": 0.0024320546071976423
+  },
+  {
+    "feature": "categorical__job_Economist",
+    "importance": 0.0024278475902974606
+  },
+  {
+    "feature": "categorical__job_Operations geologist",
+    "importance": 0.002404162660241127
+  },
+  {
+    "feature": "categorical__state_IA",
+    "importance": 0.0023965006694197655
+  },
+  {
+    "feature": "categorical__job_Conservator, museum/gallery",
+    "importance": 0.002371334470808506
+  },
+  {
+    "feature": "numeric__time_since_last_txn_sec",
+    "importance": 0.0023605446331202984
+  },
+  {
+    "feature": "categorical__gender_M",
+    "importance": 0.0023125195875763893
+  },
+  {
+    "feature": "numeric__synthetic_email_age_days",
+    "importance": 0.002267152536660433
+  },
+  {
+    "feature": "categorical__state_MI",
+    "importance": 0.00222779274918139
+  },
+  {
+    "feature": "categorical__gender_F",
+    "importance": 0.002196342684328556
+  },
+  {
+    "feature": "categorical__job_Textile designer",
+    "importance": 0.002036915859207511
+  },
+  {
+    "feature": "numeric__long",
+    "importance": 0.002005171263590455
+  },
+  {
+    "feature": "categorical__job_Television floor manager",
+    "importance": 0.0019786616321653128
+  },
+  {
+    "feature": "categorical__job_Chief Marketing Officer",
+    "importance": 0.0019409485394135118
+  },
+  {
+    "feature": "numeric__synthetic_ip_risk_score",
+    "importance": 0.001923913136124611
+  },
+  {
+    "feature": "categorical__job_Exhibition designer",
+    "importance": 0.0019036974990740418
+  },
+  {
+    "feature": "categorical__job_Call centre manager",
+    "importance": 0.0018947124481201172
+  },
+  {
+    "feature": "categorical__state_AR",
+    "importance": 0.0017559918342158198
+  },
+  {
+    "feature": "categorical__state_WV",
+    "importance": 0.0017336641903966665
+  },
+  {
+    "feature": "categorical__state_GA",
+    "importance": 0.0016517456388100982
+  },
+  {
+    "feature": "numeric__synthetic_account_age_days",
+    "importance": 0.0016420050524175167
+  },
+  {
+    "feature": "categorical__state_OH",
+    "importance": 0.001576037728227675
+  },
+  {
+    "feature": "categorical__state_NE",
+    "importance": 0.0015298908110707998
+  },
+  {
+    "feature": "categorical__state_SC",
+    "importance": 0.0015201770002022386
+  },
+  {
+    "feature": "categorical__job_Radiographer, diagnostic",
+    "importance": 0.0015047563938423991
+  },
+  {
+    "feature": "categorical__state_MO",
+    "importance": 0.001501121325418353
+  },
+  {
+    "feature": "categorical__job_Health and safety adviser",
+    "importance": 0.0014965847367420793
+  },
+  {
+    "feature": "categorical__state_OK",
+    "importance": 0.0014642494497820735
+  },
+  {
+    "feature": "categorical__job_Video editor",
+    "importance": 0.0014627837808802724
+  },
+  {
+    "feature": "categorical__state_FL",
+    "importance": 0.001443495973944664
+  },
+  {
+    "feature": "categorical__state_MS",
+    "importance": 0.0014408108545467257
+  },
+  {
+    "feature": "categorical__job_Administrator",
+    "importance": 0.0013919605407863855
+  },
+  {
+    "feature": "categorical__job_Radio producer",
+    "importance": 0.0013819439336657524
+  },
+  {
+    "feature": "categorical__job_Applications developer",
+    "importance": 0.001368612633086741
+  },
+  {
+    "feature": "categorical__job_Engineer, land",
+    "importance": 0.0013411606196314096
+  },
+  {
+    "feature": "categorical__job_Chief Executive Officer",
+    "importance": 0.0013289412017911673
+  },
+  {
+    "feature": "categorical__job_Radiographer, therapeutic",
+    "importance": 0.0012983189662918448
+  },
+  {
+    "feature": "categorical__job_Designer, interior/spatial",
+    "importance": 0.001247200183570385
+  },
+  {
+    "feature": "categorical__job_Historic buildings inspector/conservation officer",
+    "importance": 0.001235424424521625
+  },
+  {
+    "feature": "categorical__job_Pilot, airline",
+    "importance": 0.0012204133672639728
+  },
+  {
+    "feature": "categorical__state_KY",
+    "importance": 0.0011904420098289847
+  },
+  {
+    "feature": "categorical__state_AL",
+    "importance": 0.0011596550466492772
+  },
+  {
+    "feature": "numeric__is_weekend",
+    "importance": 0.0011103193974122405
+  },
+  {
+    "feature": "categorical__job_Building control surveyor",
+    "importance": 0.001057798508554697
+  },
+  {
+    "feature": "categorical__job_Occupational psychologist",
+    "importance": 0.0010396584402769804
+  },
+  {
+    "feature": "categorical__job_Insurance risk surveyor",
+    "importance": 0.0010078208288177848
+  },
+  {
+    "feature": "categorical__job_Community development worker",
+    "importance": 0.0009790982585400343
+  },
+  {
+    "feature": "categorical__job_Designer, ceramics/pottery",
+    "importance": 0.0009495247504673898
+  },
+  {
+    "feature": "categorical__state_UT",
+    "importance": 0.0009277507779188454
+  },
+  {
+    "feature": "categorical__job_Magazine journalist",
+    "importance": 0.000905892695300281
+  },
+  {
+    "feature": "categorical__job_Engineer, agricultural",
+    "importance": 0.0008855783962644637
+  },
+  {
+    "feature": "categorical__category_misc_net",
+    "importance": 0.0008713781135156751
+  },
+  {
+    "feature": "categorical__job_Medical sales representative",
+    "importance": 0.0008627094211988151
+  },
+  {
+    "feature": "categorical__job_Buyer, industrial",
+    "importance": 0.000843576795887202
+  },
+  {
+    "feature": "categorical__job_Paediatric nurse",
+    "importance": 0.0008326938841491938
+  },
+  {
+    "feature": "categorical__job_Clinical research associate",
+    "importance": 0.0007980448426678777
+  },
+  {
+    "feature": "categorical__job_Nutritional therapist",
+    "importance": 0.0007950675208121538
+  },
+  {
+    "feature": "categorical__state_VA",
+    "importance": 0.0007917143520899117
+  },
+  {
+    "feature": "categorical__job_Barrister",
+    "importance": 0.0007902834331616759
+  },
+  {
+    "feature": "categorical__job_Travel agency manager",
+    "importance": 0.0007779638399370015
+  },
+  {
+    "feature": "categorical__job_Rural practice surveyor",
+    "importance": 0.0007129820296540856
+  },
+  {
+    "feature": "categorical__job_Warden/ranger",
+    "importance": 0.0006857638945803046
+  },
+  {
+    "feature": "categorical__job_Armed forces training and education officer",
+    "importance": 0.000675218238029629
+  },
+  {
+    "feature": "categorical__job_Biomedical engineer",
+    "importance": 0.0006155819864943624
+  },
+  {
+    "feature": "categorical__job_Accountant, chartered public finance",
+    "importance": 0.0005839493242092431
+  },
+  {
+    "feature": "categorical__job_Electronics engineer",
+    "importance": 0.0005838964134454727
+  },
+  {
+    "feature": "categorical__job_Public affairs consultant",
+    "importance": 0.0005613432731479406
+  },
+  {
+    "feature": "categorical__job_Fisheries officer",
+    "importance": 0.0005556856631301343
+  },
+  {
+    "feature": "categorical__job_Paramedic",
+    "importance": 0.0005555952084250748
+  },
+  {
+    "feature": "categorical__state_TX",
+    "importance": 0.0005235820426605642
+  },
+  {
+    "feature": "categorical__job_Accounting technician",
+    "importance": 0.0005024925922043622
+  },
+  {
+    "feature": "categorical__job_Forensic psychologist",
+    "importance": 0.000500149792060256
+  },
+  {
+    "feature": "categorical__state_MN",
+    "importance": 0.00046119277249090374
+  },
+  {
+    "feature": "categorical__job_Surveyor, minerals",
+    "importance": 0.000459367292933166
+  },
+  {
+    "feature": "categorical__job_Tourism officer",
+    "importance": 0.0004578219959512353
+  },
+  {
+    "feature": "categorical__job_Oceanographer",
+    "importance": 0.00045618723379448056
+  },
+  {
+    "feature": "categorical__job_Sales professional, IT",
+    "importance": 0.00045410264283418655
+  },
+  {
+    "feature": "categorical__job_Engineer, biomedical",
+    "importance": 0.00043552741408348083
+  },
+  {
+    "feature": "categorical__job_Logistics and distribution manager",
+    "importance": 0.0004174628702457994
+  },
+  {
+    "feature": "categorical__job_Politician's assistant",
+    "importance": 0.00041728102951310575
+  },
+  {
+    "feature": "categorical__job_Physiotherapist",
+    "importance": 0.0003926947829313576
+  },
+  {
+    "feature": "categorical__job_Company secretary",
+    "importance": 0.00037000220618210733
+  },
+  {
+    "feature": "categorical__job_Trade mark attorney",
+    "importance": 0.0003276060742791742
+  },
+  {
+    "feature": "categorical__job_Sports administrator",
+    "importance": 0.00031011662213131785
+  },
+  {
+    "feature": "categorical__job_Television/film/video producer",
+    "importance": 0.0002998605486936867
+  },
+  {
+    "feature": "categorical__job_Location manager",
+    "importance": 0.00028691324405372143
+  },
+  {
+    "feature": "categorical__job_Pharmacologist",
+    "importance": 0.0002718417963478714
+  },
+  {
+    "feature": "categorical__job_Personnel officer",
+    "importance": 0.00026766298105940223
+  },
+  {
+    "feature": "categorical__job_Engineer, automotive",
+    "importance": 0.00026023329701274633
+  },
+  {
+    "feature": "categorical__job_Research officer, political party",
+    "importance": 0.0002591176307760179
+  },
+  {
+    "feature": "categorical__job_Engineer, civil (consulting)",
+    "importance": 0.0002583271998446435
+  },
+  {
+    "feature": "categorical__state_DC",
+    "importance": 0.00024808512534946203
+  },
+  {
+    "feature": "categorical__job_Senior tax professional/tax inspector",
+    "importance": 0.00024631741689518094
+  },
+  {
+    "feature": "categorical__job_Phytotherapist",
+    "importance": 0.00024201344058383256
+  },
+  {
+    "feature": "categorical__job_Chemical engineer",
+    "importance": 0.00022168199939187616
+  },
+  {
+    "feature": "categorical__state_CA",
+    "importance": 0.0002178549621021375
+  },
+  {
+    "feature": "categorical__job_Police officer",
+    "importance": 0.00021603525965474546
+  },
+  {
+    "feature": "categorical__job_Engineer, aeronautical",
+    "importance": 0.0002136811672244221
+  },
+  {
+    "feature": "categorical__job_Energy engineer",
+    "importance": 0.00019363041792530566
+  },
+  {
+    "feature": "categorical__job_Naval architect",
+    "importance": 0.00017986720195040107
+  },
+  {
+    "feature": "categorical__state_KS",
+    "importance": 0.00017964563448913395
+  },
+  {
+    "feature": "categorical__state_NJ",
+    "importance": 0.00017028265574481338
+  },
+  {
+    "feature": "categorical__job_Administrator, local government",
+    "importance": 0.00016593059990555048
+  },
+  {
+    "feature": "categorical__job_Building surveyor",
+    "importance": 8.230108505813405e-05
+  },
+  {
+    "feature": "categorical__state_NC",
+    "importance": 8.046258153626695e-05
+  },
+  {
+    "feature": "numeric__distance_from_last_txn_km",
+    "importance": 0.0
+  },
+  {
+    "feature": "numeric__travel_speed_kmh",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_AZ",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_CO",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_CT",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_HI",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_ID",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_IN",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_LA",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_MA",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_ME",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_MT",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_NV",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_OR",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_RI",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_SD",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_VT",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Academic librarian",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Accountant, chartered certified",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Acupuncturist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Administrator, arts",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Administrator, charities/voluntary organisations",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Administrator, education",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Advertising account executive",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Advertising account planner",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Advertising copywriter",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Advice worker",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Agricultural consultant",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Air broker",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Air cabin crew",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Ambulance person",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Amenity horticulturist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Animal technologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Animator",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Arboriculturist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Architect",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Architectural technologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Archivist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Armed forces logistics/support/administrative officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Art gallery manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Art therapist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Artist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Arts development officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Associate Professor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Audiological scientist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Barista",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Biochemist, clinical",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Biomedical scientist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Bookseller",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Broadcast engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Broadcast presenter",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Building services engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Buyer, retail",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Cabin crew",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Camera operator",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Careers information officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Cartographer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Catering manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Ceramics designer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Charity officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Chartered accountant",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Chartered legal executive (England and Wales)",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Chartered loss adjuster",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Chartered public finance accountant",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Chemist, analytical",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Chief Financial Officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Chief Operating Officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Chief Strategy Officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Chief Technology Officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Chief of Staff",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Child psychotherapist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Chiropodist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Civil Service administrator",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Civil engineer, contracting",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Claims inspector/assessor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Clinical biochemist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Clinical cytogeneticist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Clinical psychologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Clothing/textile technologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Colour technologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Commercial horticulturist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Commercial/residential surveyor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Commissioning editor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Communications engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Community arts worker",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Community education officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Community pharmacist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Comptroller",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Conservator, furniture",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Contractor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Control and instrumentation engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Copy",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Copywriter, advertising",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Corporate investment banker",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Counselling psychologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Counsellor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Curator",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Cytogeneticist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Dance movement psychotherapist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Dancer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Data scientist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Database administrator",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Dealer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Designer, exhibition/display",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Designer, furniture",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Designer, industrial/product",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Designer, jewellery",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Designer, multimedia",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Designer, television/film set",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Designer, textile",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Development worker, community",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Development worker, international aid",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Diagnostic radiographer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Dispensing optician",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Doctor, general practice",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Doctor, hospital",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Early years teacher",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Ecologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Editor, commissioning",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Editor, magazine features",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Education administrator",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Educational psychologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Electrical engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Embryologist, clinical",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Emergency planning/management officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Energy manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, broadcasting (operations)",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, building services",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, civil (contracting)",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, communications",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, control and instrumentation",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, drilling",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, electronics",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, maintenance",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, manufacturing",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, materials",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, mining",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, production",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, structural",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Engineer, technical sales",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_English as a foreign language teacher",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_English as a second language teacher",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Environmental education officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Environmental health practitioner",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Environmental manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Equities trader",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Estate manager/land agent",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Event organiser",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Exercise physiologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Exhibitions officer, museum/gallery",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Facilities manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Farm manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Field seismologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Field trials officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Financial adviser",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Fine artist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Firefighter",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Freight forwarder",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Furniture conservator/restorer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Furniture designer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Further education lecturer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Futures trader",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Gaffer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Garment/textile technologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Geneticist, molecular",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Geochemist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Geologist, engineering",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Geologist, wellsite",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Geophysicist/field seismologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Glass blower/designer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Health physicist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Health promotion specialist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Health service manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Health visitor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Herbalist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Heritage manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Herpetologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Higher education careers adviser",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Horticultural consultant",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Horticultural therapist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Horticulturist, commercial",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Hospital doctor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Hospital pharmacist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Hotel manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Human resources officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Hydrogeologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Hydrographic surveyor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Hydrologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_IT consultant",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_IT trainer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Illustrator",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Immigration officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Immunologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Industrial buyer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Industrial/product designer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Information systems manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Insurance broker",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Insurance claims handler",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Intelligence analyst",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Interior and spatial designer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Interpreter",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Investment analyst",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Investment banker, corporate",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Investment banker, operational",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Jewellery designer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Journalist, newspaper",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Land",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Landscape architect",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Learning disability nurse",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Learning mentor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Lecturer, further education",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Lecturer, higher education",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Lexicographer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Librarian, academic",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Librarian, public",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Licensed conveyancer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Local government officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Loss adjuster, chartered",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Magazine features editor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Make",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Management consultant",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Manufacturing engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Manufacturing systems engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Market researcher",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Marketing executive",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Materials engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Media buyer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Media planner",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Medical physicist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Medical secretary",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Mental health nurse",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Merchandiser, retail",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Metallurgist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Minerals surveyor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Mudlogger",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Multimedia programmer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Museum education officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Museum/gallery exhibitions officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Music therapist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Music tutor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Nature conservation officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Network engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Neurosurgeon",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Nurse, children's",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Nurse, mental health",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Occupational hygienist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Occupational therapist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Oncologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Operational researcher",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Optician, dispensing",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Optometrist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Orthoptist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Osteopath",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Outdoor activities/education manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Patent attorney",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Pathologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Pension scheme manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Pensions consultant",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Petroleum engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Pharmacist, community",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Pharmacist, hospital",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Physicist, medical",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Physiological scientist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Planning and development surveyor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Plant breeder/geneticist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Podiatrist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Presenter, broadcasting",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Press photographer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Press sub",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Primary school teacher",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Prison officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Private music teacher",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Probation officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Producer, television/film/video",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Product designer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Product manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Product/process development scientist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Production assistant, radio",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Production assistant, television",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Production engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Production manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Professor Emeritus",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Programme researcher, broadcasting/film/video",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Programmer, applications",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Programmer, multimedia",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Psychiatric nurse",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Psychiatrist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Psychologist, clinical",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Psychologist, forensic",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Psychologist, sport and exercise",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Psychotherapist, child",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Public house manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Public librarian",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Public relations account executive",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Public relations officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Purchasing manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Quantity surveyor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Quarry manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Race relations officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Radio broadcast assistant",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Records manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Regulatory affairs officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Research scientist (life sciences)",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Research scientist (maths)",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Research scientist (medical)",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Research scientist (physical sciences)",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Restaurant manager, fast food",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Retail banker",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Retail buyer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Retail manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Retail merchandiser",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Risk analyst",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Sales executive",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Scientific laboratory technician",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Scientist, audiological",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Scientist, clinical (histocompatibility and immunogenetics)",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Scientist, marine",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Scientist, physiological",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Scientist, research (maths)",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Scientist, research (medical)",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Scientist, research (physical sciences)",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Secretary/administrator",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Seismic interpreter",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Set designer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Site engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Social research officer, government",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Soil scientist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Solicitor",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Solicitor, Scotland",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Sport and exercise psychologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Stage manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Statistician",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Structural engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Sub",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Surgeon",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Surveyor, hydrographic",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Surveyor, mining",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Surveyor, rural practice",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Systems analyst",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Systems developer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_TEFL teacher",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Tax adviser",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Tax inspector",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Teacher, English as a foreign language",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Teacher, adult education",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Teacher, early years/pre",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Teacher, primary school",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Teacher, secondary school",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Teacher, special educational needs",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Teaching laboratory technician",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Technical brewer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Telecommunications researcher",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Television camera operator",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Television production assistant",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Theatre manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Theme park manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Therapist, art",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Therapist, drama",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Therapist, horticultural",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Therapist, music",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Therapist, sports",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Tour manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Tourist information centre manager",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Toxicologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Training and development officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Transport planner",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Tree surgeon",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Visual merchandiser",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Volunteer coordinator",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Waste management officer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Water engineer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Water quality scientist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Web designer",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Wellsite geologist",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__job_Writer",
+    "importance": 0.0
+  }
+]

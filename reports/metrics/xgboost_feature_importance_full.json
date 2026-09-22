@@ -1,0 +1,438 @@
+[
+  {
+    "feature": "numeric__is_high_amount",
+    "importance": 0.18511924147605896
+  },
+  {
+    "feature": "numeric__is_night_transaction",
+    "importance": 0.0824861004948616
+  },
+  {
+    "feature": "numeric__amt",
+    "importance": 0.07894361764192581
+  },
+  {
+    "feature": "numeric__amount_log",
+    "importance": 0.07509616762399673
+  },
+  {
+    "feature": "categorical__merchant_category_risk_tier_high",
+    "importance": 0.06604839116334915
+  },
+  {
+    "feature": "categorical__category_gas_transport",
+    "importance": 0.03793871030211449
+  },
+  {
+    "feature": "categorical__category_food_dining",
+    "importance": 0.030189979821443558
+  },
+  {
+    "feature": "categorical__category_shopping_pos",
+    "importance": 0.030156269669532776
+  },
+  {
+    "feature": "numeric__merchant_category_risk_score",
+    "importance": 0.02712145820260048
+  },
+  {
+    "feature": "categorical__category_grocery_net",
+    "importance": 0.021290970966219902
+  },
+  {
+    "feature": "numeric__amount_vs_customer_mean",
+    "importance": 0.020781897008419037
+  },
+  {
+    "feature": "categorical__category_entertainment",
+    "importance": 0.019318467006087303
+  },
+  {
+    "feature": "categorical__category_home",
+    "importance": 0.018749870359897614
+  },
+  {
+    "feature": "categorical__category_shopping_net",
+    "importance": 0.016360780224204063
+  },
+  {
+    "feature": "categorical__category_kids_pets",
+    "importance": 0.01611362025141716
+  },
+  {
+    "feature": "categorical__category_travel",
+    "importance": 0.015999745577573776
+  },
+  {
+    "feature": "numeric__is_very_high_amount",
+    "importance": 0.015665559098124504
+  },
+  {
+    "feature": "categorical__category_grocery_pos",
+    "importance": 0.014975159429013729
+  },
+  {
+    "feature": "categorical__merchant_category_risk_tier_low",
+    "importance": 0.013988105580210686
+  },
+  {
+    "feature": "categorical__category_personal_care",
+    "importance": 0.012886609882116318
+  },
+  {
+    "feature": "categorical__merchant_category_risk_tier_medium",
+    "importance": 0.010723424144089222
+  },
+  {
+    "feature": "numeric__txn_hour",
+    "importance": 0.00835789367556572
+  },
+  {
+    "feature": "numeric__time_since_last_txn_sec",
+    "importance": 0.00817638449370861
+  },
+  {
+    "feature": "categorical__category_misc_pos",
+    "importance": 0.007420094218105078
+  },
+  {
+    "feature": "numeric__transactions_last_1h",
+    "importance": 0.0072054751217365265
+  },
+  {
+    "feature": "categorical__category_misc_net",
+    "importance": 0.006377554032951593
+  },
+  {
+    "feature": "numeric__customer_age",
+    "importance": 0.005036497488617897
+  },
+  {
+    "feature": "numeric__merchant_prior_fraud_count",
+    "importance": 0.004960860591381788
+  },
+  {
+    "feature": "numeric__amount_spent_last_1h",
+    "importance": 0.004875598940998316
+  },
+  {
+    "feature": "categorical__state_MT",
+    "importance": 0.004319492727518082
+  },
+  {
+    "feature": "numeric__distinct_categories_last_24h",
+    "importance": 0.003849148051813245
+  },
+  {
+    "feature": "categorical__state_OH",
+    "importance": 0.0037577629555016756
+  },
+  {
+    "feature": "categorical__state_PA",
+    "importance": 0.0034636955242604017
+  },
+  {
+    "feature": "numeric__transactions_last_6h",
+    "importance": 0.003372026141732931
+  },
+  {
+    "feature": "numeric__transactions_last_10min",
+    "importance": 0.0032594851218163967
+  },
+  {
+    "feature": "categorical__gender_M",
+    "importance": 0.0031618706416338682
+  },
+  {
+    "feature": "numeric__city_pop",
+    "importance": 0.0030582572799175978
+  },
+  {
+    "feature": "categorical__category_health_fitness",
+    "importance": 0.0030264039523899555
+  },
+  {
+    "feature": "numeric__transactions_last_24h",
+    "importance": 0.003002012614160776
+  },
+  {
+    "feature": "categorical__state_LA",
+    "importance": 0.002965616760775447
+  },
+  {
+    "feature": "categorical__state_WY",
+    "importance": 0.0029634572565555573
+  },
+  {
+    "feature": "numeric__amount_zscore_customer",
+    "importance": 0.0028684260323643684
+  },
+  {
+    "feature": "numeric__merchant_prior_fraud_rate",
+    "importance": 0.0028611000161617994
+  },
+  {
+    "feature": "categorical__state_OK",
+    "importance": 0.0028265081346035004
+  },
+  {
+    "feature": "categorical__state_WV",
+    "importance": 0.002706818748265505
+  },
+  {
+    "feature": "categorical__state_NC",
+    "importance": 0.0025383918546140194
+  },
+  {
+    "feature": "categorical__state_MD",
+    "importance": 0.002532149665057659
+  },
+  {
+    "feature": "numeric__long",
+    "importance": 0.002464935416355729
+  },
+  {
+    "feature": "categorical__state_VA",
+    "importance": 0.002438365714624524
+  },
+  {
+    "feature": "categorical__state_KS",
+    "importance": 0.002433823887258768
+  },
+  {
+    "feature": "categorical__gender_F",
+    "importance": 0.0024037060793489218
+  },
+  {
+    "feature": "categorical__state_MO",
+    "importance": 0.0023671709932386875
+  },
+  {
+    "feature": "numeric__merch_long",
+    "importance": 0.002358264522626996
+  },
+  {
+    "feature": "numeric__amount_spent_last_24h",
+    "importance": 0.00232458277605474
+  },
+  {
+    "feature": "categorical__state_TN",
+    "importance": 0.002314460463821888
+  },
+  {
+    "feature": "categorical__state_AZ",
+    "importance": 0.002261035842821002
+  },
+  {
+    "feature": "numeric__amount_spent_last_6h",
+    "importance": 0.0022407574579119682
+  },
+  {
+    "feature": "categorical__state_VT",
+    "importance": 0.0021068451460450888
+  },
+  {
+    "feature": "numeric__zip",
+    "importance": 0.0020233294926583767
+  },
+  {
+    "feature": "categorical__state_NH",
+    "importance": 0.002019573235884309
+  },
+  {
+    "feature": "categorical__state_FL",
+    "importance": 0.001958914566785097
+  },
+  {
+    "feature": "categorical__state_KY",
+    "importance": 0.0019394028931856155
+  },
+  {
+    "feature": "categorical__state_SC",
+    "importance": 0.001921837916597724
+  },
+  {
+    "feature": "categorical__state_NY",
+    "importance": 0.0018662639195099473
+  },
+  {
+    "feature": "numeric__synthetic_device_changed",
+    "importance": 0.0018645181553438306
+  },
+  {
+    "feature": "numeric__txn_dayofweek",
+    "importance": 0.0018522600876167417
+  },
+  {
+    "feature": "numeric__lat",
+    "importance": 0.0017683965852484107
+  },
+  {
+    "feature": "numeric__synthetic_email_age_days",
+    "importance": 0.0017154592787846923
+  },
+  {
+    "feature": "categorical__state_HI",
+    "importance": 0.001703597721643746
+  },
+  {
+    "feature": "numeric__merchant_prior_txn_count",
+    "importance": 0.001691485638730228
+  },
+  {
+    "feature": "numeric__merch_lat",
+    "importance": 0.0016645817086100578
+  },
+  {
+    "feature": "categorical__state_AR",
+    "importance": 0.0016566236736252904
+  },
+  {
+    "feature": "categorical__state_ME",
+    "importance": 0.0016185943968594074
+  },
+  {
+    "feature": "numeric__synthetic_ip_risk_score",
+    "importance": 0.0016160738887265325
+  },
+  {
+    "feature": "categorical__state_IA",
+    "importance": 0.0015837722457945347
+  },
+  {
+    "feature": "categorical__state_WI",
+    "importance": 0.0015248964773491025
+  },
+  {
+    "feature": "numeric__synthetic_account_age_days",
+    "importance": 0.0015247788978740573
+  },
+  {
+    "feature": "categorical__state_MI",
+    "importance": 0.0014764599036425352
+  },
+  {
+    "feature": "numeric__is_weekend",
+    "importance": 0.0014521009288728237
+  },
+  {
+    "feature": "categorical__state_CA",
+    "importance": 0.0014259449671953917
+  },
+  {
+    "feature": "categorical__state_DC",
+    "importance": 0.0013913317816331983
+  },
+  {
+    "feature": "numeric__merchant_customer_distance_km",
+    "importance": 0.0013627534499391913
+  },
+  {
+    "feature": "categorical__state_OR",
+    "importance": 0.0013495226157829165
+  },
+  {
+    "feature": "categorical__state_GA",
+    "importance": 0.0011238656006753445
+  },
+  {
+    "feature": "categorical__state_MS",
+    "importance": 0.001123820780776441
+  },
+  {
+    "feature": "categorical__state_IN",
+    "importance": 0.0010811872780323029
+  },
+  {
+    "feature": "categorical__state_NJ",
+    "importance": 0.0010150913149118423
+  },
+  {
+    "feature": "categorical__state_NE",
+    "importance": 0.0009918144205585122
+  },
+  {
+    "feature": "numeric__synthetic_failed_logins_24h",
+    "importance": 0.0009903713362291455
+  },
+  {
+    "feature": "categorical__state_IL",
+    "importance": 0.0008968657930381596
+  },
+  {
+    "feature": "numeric__synthetic_billing_shipping_mismatch",
+    "importance": 0.0008794827153906226
+  },
+  {
+    "feature": "categorical__state_TX",
+    "importance": 0.0008629100630059838
+  },
+  {
+    "feature": "categorical__state_UT",
+    "importance": 0.000680666184052825
+  },
+  {
+    "feature": "categorical__state_CO",
+    "importance": 0.0006439322023652494
+  },
+  {
+    "feature": "categorical__state_SD",
+    "importance": 0.0005808867863379419
+  },
+  {
+    "feature": "categorical__state_NV",
+    "importance": 0.000571247364860028
+  },
+  {
+    "feature": "categorical__state_ND",
+    "importance": 0.0005485221045091748
+  },
+  {
+    "feature": "categorical__state_NM",
+    "importance": 0.000484288641018793
+  },
+  {
+    "feature": "categorical__state_DE",
+    "importance": 0.0004087708657607436
+  },
+  {
+    "feature": "categorical__state_MN",
+    "importance": 0.0003404680755920708
+  },
+  {
+    "feature": "categorical__state_AK",
+    "importance": 0.00017645258049014956
+  },
+  {
+    "feature": "categorical__state_AL",
+    "importance": 1.579503259563353e-05
+  },
+  {
+    "feature": "numeric__distance_from_last_txn_km",
+    "importance": 0.0
+  },
+  {
+    "feature": "numeric__travel_speed_kmh",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_CT",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_ID",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_MA",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_RI",
+    "importance": 0.0
+  },
+  {
+    "feature": "categorical__state_WA",
+    "importance": 0.0
+  }
+]

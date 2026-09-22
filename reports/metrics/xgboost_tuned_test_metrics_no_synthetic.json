@@ -1,0 +1,25 @@
+{
+  "threshold": 0.6,
+  "precision": 0.7142857142857143,
+  "recall": 0.8333333333333334,
+  "f1": 0.7692307692307693,
+  "confusion_matrix": [
+    [
+      14880,
+      30
+    ],
+    [
+      15,
+      75
+    ]
+  ],
+  "false_positives": 30,
+  "false_negatives": 15,
+  "review_rate": 0.007,
+  "variant": "no_synthetic",
+  "target_column": "is_fraud",
+  "raw_feature_count": 24,
+  "transformed_feature_count": 566,
+  "roc_auc": 0.998438780833147,
+  "pr_auc": 0.8931268029012644
+}
