@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gotcha Fraud Detection — Dashboard</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div>
+    <h1>Gotcha Fraud Detection</h1>
+    <p class="subtitle">Live dashboard for the Gotcha fraud-scoring API</p>
+  </div>
+  <button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle light/dark theme">🌓 Theme</button>
+</header>
+
+<main class="container">
+
+  <!-- Connection bar -->
+  <section class="card" aria-labelledby="connection-heading">
+    <h2 id="connection-heading">Connection</h2>
+    <div class="connection-row">
+      <div class="field">
+        <label for="apiBaseUrl">API base URL</label>
+        <input type="text" id="apiBaseUrl" autocomplete="off" spellcheck="false" />
+      </div>
+      <div class="field">
+        <label for="apiKey">API key (X-API-Key)</label>
+        <input type="password" id="apiKey" autocomplete="off" placeholder="stored only in this tab's sessionStorage" />
+      </div>
+      <div class="field" style="flex: 0 0 auto;">
+        <label>&nbsp;</label>
+        <span class="pill down" id="healthPill" role="status" aria-live="polite">
+          <span class="pill-dot"></span><span id="healthPillText">checking…</span>
+        </span>
+      </div>
+    </div>
+    <p class="hint">The key never touches a file or localStorage — it's cleared when this tab closes.</p>
+    <div class="wake-banner" id="wakeBanner" role="status" aria-live="polite">
+      <span class="spinner" aria-hidden="true"></span>
+      <span>Waking up the API… Render's free tier spins down when idle, first response can take up to ~30s.</span>
+    </div>
+  </section>
+
+  <div class="grid-2">
+    <!-- Transaction composer -->
+    <section class="card" aria-labelledby="composer-heading">
+      <h2 id="composer-heading">Transaction composer</h2>
+
+      <div class="presets" id="presetRow"></div>
+
+      <div class="btn-row">
+        <button class="btn btn-sm" id="toggleJsonMode" type="button">Raw JSON editor</button>
+        <button class="btn btn-sm" id="clearForm" type="button">Clear</button>
+      </div>
+
+      <form id="txnForm">
+        <div id="formFields">
+          <p class="empty-state">Loading field schema…</p>
+        </div>
+      </form>
+
+      <div class="json-editor" id="jsonEditorWrap">
+        <textarea id="jsonEditor" spellcheck="false" aria-label="Raw JSON request body"></textarea>
+      </div>
+
+      <div class="btn-row" style="margin-top:14px;">
+        <button class="btn btn-primary" id="scoreBtn" type="button">Score transaction</button>
+      </div>
+    </section>
+
+    <!-- Result panel -->
+    <section class="card" aria-labelledby="result-heading">
+      <h2 id="result-heading">Result</h2>
+      <div id="resultPanel">
+        <p class="empty-state">Score a transaction to see results here.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- API call panel -->
+  <section class="card" aria-labelledby="apicall-heading">
+    <h2 id="apicall-heading">API call</h2>
+    <h3>curl (API key masked)</h3>
+    <div class="btn-row">
+      <button class="btn btn-sm" id="copyCurl" type="button">Copy curl</button>
+    </div>
+    <pre class="code-block" id="curlBlock">—</pre>
+    <h3>Raw response</h3>
+    <pre class="code-block" id="rawResponseBlock">—</pre>
+  </section>
+
+  <!-- Session history -->
+  <section class="card" aria-labelledby="history-heading">
+    <h2 id="history-heading">Session history</h2>
+
+    <h3>Decision mix</h3>
+    <div id="decisionMix">
+      <p class="empty-state">No scored transactions yet this session.</p>
+    </div>
+
+    <h3>Batch scoring (CSV upload)</h3>
+    <div class="btn-row">
+      <input type="file" id="csvInput" accept=".csv,text/csv" />
+      <button class="btn btn-sm" id="downloadSampleCsv" type="button">Download sample CSV</button>
+    </div>
+    <p class="hint">Header row = field names (same as the form). Blank cells are left for the API to derive/impute.</p>
+    <div id="batchStatus"></div>
+
+    <h3>History table</h3>
+    <div class="table-scroll">
+      <table class="data-table" id="historyTable">
+        <thead>
+          <tr>
+            <th>#</th><th>Time</th><th>Amount</th><th>Category</th>
+            <th>Probability</th><th>Decision</th><th>Latency</th>
+          </tr>
+        </thead>
+        <tbody id="historyBody">
+          <tr><td colspan="7" class="empty-state">Nothing scored yet.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Model card -->
+  <section class="card" aria-labelledby="model-heading">
+    <h2 id="model-heading">Model card</h2>
+    <div id="modelCard">
+      <p class="empty-state">Loading model info…</p>
+    </div>
+  </section>
+
+</main>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
