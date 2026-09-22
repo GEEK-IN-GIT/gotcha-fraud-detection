@@ -1,0 +1,48 @@
+{
+  "numeric_columns": [
+    "amt",
+    "zip",
+    "lat",
+    "long",
+    "city_pop",
+    "merch_lat",
+    "merch_long",
+    "txn_hour",
+    "txn_dayofweek",
+    "is_weekend",
+    "is_night_transaction",
+    "customer_age",
+    "merchant_customer_distance_km",
+    "amount_log",
+    "amount_vs_customer_mean",
+    "amount_zscore_customer",
+    "time_since_last_txn_sec",
+    "distance_from_last_txn_km",
+    "travel_speed_kmh",
+    "transactions_last_10min",
+    "synthetic_device_changed",
+    "synthetic_failed_logins_24h",
+    "synthetic_ip_risk_score",
+    "synthetic_account_age_days",
+    "synthetic_email_age_days",
+    "synthetic_billing_shipping_mismatch"
+  ],
+  "categorical_columns": [
+    "category",
+    "gender",
+    "state",
+    "job"
+  ],
+  "dropped_columns": [
+    "trans_date_trans_time",
+    "dob",
+    "cc_num",
+    "first",
+    "last",
+    "street",
+    "trans_num",
+    "unix_time",
+    "merchant"
+  ],
+  "target_column": "is_fraud"
+}
